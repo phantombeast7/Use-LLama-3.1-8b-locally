@@ -2,6 +2,31 @@
 
 This repository contains two Jupyter notebooks demonstrating different aspects of working with language models and semantic search. These notebooks are designed to be run in Google Colab.
 
+## Important Note
+
+To access the LLaMA model, you need a Hugging Face access token. Follow these steps to obtain your access token:
+
+1. **Create an Account**:
+   - Go to [Hugging Face](https://huggingface.co/) and create an account if you don’t have one.
+
+2. **Request Access to the Model**:
+   - Visit [Meta-Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct).
+   - Agree to the terms and share your contact information to gain access to the Meta-Llama-3.1 model.
+
+3. **Generate an Access Token**:
+   - Go to [Hugging Face Tokens](https://huggingface.co/settings/tokens).
+   - Click on "Create a new token" at the top.
+   - Select "Write" permissions and give the token a name of your choice.
+   - Click "Create token" and save the token securely as you will need it to run the notebook.
+
+4. **Authenticate in the Notebook**:
+   - When you run the code block in the notebook:
+     ```python
+     from huggingface_hub import notebook_login
+     notebook_login()
+     ```
+   - It will prompt you to enter the token you obtained. Enter the token to authenticate.
+
 ## Notebooks
 
 - [Chat_with_LLama_3.1_8B.ipynb](#chat-with-llama-31-8b-notebook)
@@ -72,7 +97,7 @@ This notebook demonstrates integrating semantic search with the LLaMA model usin
 
 ## Notes
 
-- **GPU Availability**: Google Colab provides free access to GPUs, which can accelerate model inference. Make sure to enable GPU support in Colab by navigating to `Runtime` > `Change runtime type` > `Hardware accelerator` and selecting `GPU`.
+- **GPU Availability**: Google Colab provides free access to GPUs, which can accelerate model inference. Make sure to enable GPU support in Colab by navigating to `Edit` > `Notebook Settings` > `T4 GPU` or any GPU available in your Colab.
 
 - **Hugging Face Authentication**: In the `Chat_with_LLama_3.1_8B.ipynb` notebook, you will be prompted to log in to Hugging Face. Follow the instructions to authenticate.
 
