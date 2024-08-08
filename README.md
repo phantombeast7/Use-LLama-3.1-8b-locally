@@ -101,8 +101,4 @@ This notebook demonstrates integrating semantic search with the LLaMA model usin
 
 - **Hugging Face Authentication**: In the `Chat_with_LLama_3.1_8B.ipynb` notebook, you will be prompted to log in to Hugging Face. Follow the instructions to authenticate.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Feel free to contribute or open issues if you encounter any problems or have suggestions for improvements.
