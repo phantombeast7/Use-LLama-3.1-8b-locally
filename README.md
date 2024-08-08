@@ -29,8 +29,8 @@ To access the LLaMA model, you need a Hugging Face access token. Follow these st
 
 ## Notebooks
 
-- [Chat_with_LLama_3.1_8B.ipynb](#chat-with-llama-31-8b-notebook)
-- [Custom_Dataset(CSV).ipynb](#custom-datasetcsv-notebook)
+- [Chat_with_LLama_3.1_8B.ipynb](#chat_with_llama_31_8b_notebook)
+- [Custom_Dataset(CSV).ipynb](#custom_datasetcsv_notebook)
 
 ## Chat_with_LLama_3.1_8B.ipynb
 
@@ -38,9 +38,9 @@ This notebook provides an interactive chat interface with the LLaMA 3.1 8B langu
 
 ### Overview
 
-- **Installation**: Installs necessary libraries (`bitsandbytes`, `accelerate`, `transformers`).
-- **Authentication**: Authenticates with Hugging Face to access the model.
-- **Interactive Chat**: Sets up an interactive chat where you can input messages and receive responses from the LLaMA model.
+1. **Installation**: Installs necessary libraries (`bitsandbytes`, `accelerate`, `transformers`).
+2. **Authentication**: Authenticates with Hugging Face to access the model.
+3. **Interactive Chat**: Sets up an interactive chat where you can input messages and receive responses from the LLaMA model.
 
 ### How to Use in Colab
 
@@ -67,11 +67,11 @@ This notebook demonstrates integrating semantic search with the LLaMA model usin
 
 ### Overview
 
-- **Installation**: Installs necessary packages (`bitsandbytes`, `accelerate`, `transformers`, `sentence-transformers`).
-- **Dataset**: Loads and preprocesses a CSV file containing documents.
-- **Semantic Search**: Uses Sentence-BERT for semantic search to retrieve relevant documents.
-- **Summarization**: Summarizes the retrieved documents.
-- **Enhanced Chat**: Combines summarized documents with LLaMA model responses for a richer conversational experience.
+1. **Installation**: Installs necessary packages (`bitsandbytes`, `accelerate`, `transformers`, `sentence-transformers`).
+2. **Dataset**: Loads and preprocesses a CSV file containing documents.
+3. **Semantic Search**: Uses Sentence-BERT for semantic search to retrieve relevant documents.
+4. **Summarization**: Summarizes the retrieved documents.
+5. **Enhanced Chat**: Combines summarized documents with LLaMA model responses for a richer conversational experience.
 
 ### How to Use in Colab
 
